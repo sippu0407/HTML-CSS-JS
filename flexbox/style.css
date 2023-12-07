@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+#box1{
+    height: 17%;
+    width: 10%;
+    background-color: red;
+}
+#box2{
+    height: 17%;
+    width: 10%;
+    background-color: blue;
+}
+#box3{
+    height: 17%;
+    width: 10%;
+    background-color:greenyellow;
+}
+
