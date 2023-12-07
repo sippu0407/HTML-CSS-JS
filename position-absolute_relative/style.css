@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+  display: flex;  
+  height: 100%;
+  width: 100%;
+  background-color: yellowgreen;
+
+}
+#left{
+
+  height: 100%;
+  width: 50%;
+  background-image: url(https://images.unsplash.com/photo-1701526474746-3aadab5c7a52?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#right{
+
+  height: 100%;
+  width: 50%; 
+  background-image: url(https://images.unsplash.com/photo-1611651186486-415f04eb78e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#layover1{
+    position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(2, 2, 2, 0.541);    
+}
+
+#layover2{
+    position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.244);    
+}
+#textLeft{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    text-align: center;
+}
+
+#textRight{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
