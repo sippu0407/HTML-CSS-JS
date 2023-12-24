@@ -14,21 +14,69 @@ html , body {
 }
 
 #main{
-    display: flex;
     height: 100%;
     width: 100%;
-    background-image: url(https://images.unsplash.com/photo-1509149037-37dc57ccbd13?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1534094830444-3a1e21f7e3e7?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
+
+}
+#main #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+#nav #nlinks a{
+
+    position: relative;
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+#nlinks #aMiddle::before{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background-color: blue;
+
+    position: absolute;
+
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+
 }
 
-#main #left{
-    height: 100%;
-    width: 30%;
-    background-color: rgba(0, 0, 0, 0.267);
+#nav i{
+
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#main #right{
-    height: 100%;
-    width: 70%;
-   
+
+#nav h1{
+    
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
